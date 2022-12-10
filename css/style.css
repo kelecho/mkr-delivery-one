@@ -1,2 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 /*Estilos custom*/
 
+:root {
+    --ff: 'Roboto', sans-serif;
+    --fw-n: 400;
+    --fw-b: 700;
+    --gray-ligth-color: #8794BA;
+    --pink-color: #EF2A82;
+    --dark-blue-color: #172755;
+    --blue-color: #0088F0;
+    --dark-blue-pricing-color: #0F1F4B;
+    --text-primary-color: #FFF;
+    --text-secondary-color: #8794BA;
+
+    --spacer: 1rem;
+    --spacer-md: calc(var(--spacer) * 2);
+    --spacer-lg: calc(var(--spacer) * 3);
+}
+
+/**/
+
+body{
+    background-color: var(--gray-ligth-color);
+}
