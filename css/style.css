@@ -13,14 +13,29 @@
     --dark-blue-pricing-color: #0F1F4B;
     --text-primary-color: #FFF;
     --text-secondary-color: #8794BA;
-
-    --spacer: 1rem;
-    --spacer-md: calc(var(--spacer) * 2);
-    --spacer-lg: calc(var(--spacer) * 3);
 }
 
-/**/
+/* Default styles */
 
 body{
-    background-color: var(--gray-ligth-color);
+    font-family: var(--ff);
+    background-color: var(--dark-blue-color);
+}
+
+
+/* Custom Styles */
+.text-color-white{
+    color: var(--text-primary-color);
+}
+
+.text-color-secondary{
+    color: var(--gray-ligth-color);
+}
+
+.title{
+    color: var(--text-primary-color);
+}
+
+.section-1{
+    margin-top: 5rem;
 }
