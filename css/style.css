@@ -20,6 +20,8 @@
     --br: 68px;
 
     --br-card-custom: 30px;
+    --fh-b: 40px;
+    --fs-s: 18px;
 }
 
 /**/
@@ -27,11 +29,6 @@
 body{
     background-color: var(--gray-ligth-color);
     font-family: var(--ff);    
-}
-
-
-.card-custom{
-    font-weight: bold;
 }
 
 .card-custom-1{
@@ -54,29 +51,43 @@ body{
     border-radius: var(--br-card-custom)!important;
 }
 
-
 .btn-custom{
-    display: block;
     border: 1px solid var(--gray-ligth-color);
-    text-decoration: none;
     color:  var(--text-primary-color);
     padding: 1em 1.5em;
     border-radius: var(--br);
     font-size: var(--fw-b);;
     letter-spacing: 1px;
-    margin: auto;
 }
 
 .btn-custom-2{
     background-color: var(--pink-color);
 }
 
+.h2-custom{
+    color: var(--text-primary-color);
+    font-size: var(--fh-b);
+}
+
+.h3-custom{
+    font-size: var(--br-card-custom);
+}
+
 .p-style{
     color: var(--gray-ligth-color);
-    font-size: 18px;
+    font-size: var(--fs-s);
 }
 
 .small-style{
     color: var(--gray-ligth-color);
     font-size: 16px;
+}
+
+.custom-color{
+    background-color: var(--dark-blue-color);
+}
+	
+.footer-align{
+    display: flex;
+    justify-content: space-between;
 }
