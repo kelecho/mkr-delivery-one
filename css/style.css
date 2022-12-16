@@ -13,7 +13,7 @@
     --dark-blue-pricing-color: #0F1F4B;
     --text-primary-color: #FFF;
     --text-secondary-color: #8794BA;
-
+    --section-3-color: #f8f9ff;
     --spacer: 1rem;
     --spacer-md: calc(var(--spacer) * 2);
     --spacer-lg: calc(var(--spacer) * 3);
@@ -26,5 +26,19 @@ body{
 }
 
 .section-3 {
-background-color: var(--text-primary-color);
+background-color: var(--section-3-color);
+}
+
+
+.align-vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 575.98px) { 
+    .display-custom {
+        display: block; 
+    }
 }
