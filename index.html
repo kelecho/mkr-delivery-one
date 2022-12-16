@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Iniciando Proyecto</title>
 </head>
-<body>
+<body class="custom-color">
     <nav class="navbar navbar-expand-lg bg-light">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -45,7 +45,7 @@
             </form>
           </div>
         </div>
-      </nav>
+    </nav>
     <!-- Section 1  Cesar-->
 
     <!-- Section 2 Francisco-->
@@ -53,33 +53,37 @@
     <!-- Section 3 Angel-->
 
     <!-- Section 4 Juanjo-->
-    <div class="container-md py-3 custom-color" >
-      <footer class="pt-4 my-md-5 pt-md-5">
+    <div class="container">
+      <div class="section-4">
         <div class="p-3 pb-md-4 mx-auto text-center">
           <h2 class="fw-bold h2-custom">Pricing Plans</h2>
           <p class="fs-5 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat pellentesque volutpat est.</p>
         </div>
-        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="row text-center">
           <div class="col">
-            <div class="card mb-4 rounded-custom shadow-sm card-custom-1">
-              <div class="card-header py-3" >
-                <h3 class="my-0 fw-bold h3-custom">Starter</h3>
-                <p class="p-style">up to 3 users</p>
-              </div>
+            <div class="card rounded-custom card-custom-1">
               <div class="card-body">
+                <div class="with-line">
+                  <h3 class="">Starter</h3>
+                  <p class="p-style">up to 3 users</p>  
+                </div>
+
                 <h1 class="card-title">$29</h1>
-                <small class="text-muted fw-light">per month</small>
-                <button type="button" class="w-50 btn btn-lg btn-custom">Order</button>
+                <p><small class="text-muted fw-light mb-2">per month</small></p>
+                <button type="button" class="w-50 btn btn-custom btn-lg">Order</button>
               </div>
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-custom shadow-sm card-custom card-custom-2">
+            <div class="card rounded-custom card-custom-2">
               <div class="card-body">
-                <h3 class="my-0 fw-bold h3-custom">Standard</h3>
-                <p class="p-style">up to 20 users</p>
+                <div class="with-line">
+                  <h3 class="">Standard</h3>
+                  <p class="p-style">up to 20 users</p>  
+                </div>
+
                 <h1 class="card-title pricing-card-title">$99</h1>
-                <small class="text-muted fw-light">per month</small>
+                <p><small class="text-muted fw-light">per month</small></p>
                 <button type="button" class="w-50 btn btn-lg btn-custom btn-custom-2">Order</button>
               </div>
             </div>
@@ -98,6 +102,10 @@
             </div>
           </div>
         </div>
+
+      </div>
+        
+      <footer class="pt-4 my-md-5 pt-md-5 line-top">
         <nav class="footer-align">
               <ul class="nav">
                 <li class="nav-item">
@@ -132,9 +140,13 @@
                   <a class="nav-link disabled"><img src="./assets/Instagram.svg" alt="insertar SVG con la etiqueta image"></a>
                 </li>
               </ul>
-            </nav>  
+        </nav>  
       </footer>
-    </div>      
+
+    </div>
+      
+      
+      
   <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
