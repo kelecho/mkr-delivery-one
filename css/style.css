@@ -27,6 +27,12 @@
     --br-card-custom: 30px;
     --fh-b: 40px;
     --fs-s: 18px;
+    --fs-h2: 1.875rem;
+    --fs-h3: 1.5625rem;
+    --fs-p1: 1.125rem;
+    --fs-p3: 3.75rem;
+    --fs-p1-1: 0.875rem;
+    --lg-p:19px;
 }
 
 /**/
@@ -76,18 +82,34 @@ body{
     background-color: var(--pink-color);
 }
 
+
 .h2-custom{
     color: var(--text-primary-color);
-    font-size: 1.875rem;
 }
 
 .h3-custom{
-    font-size: 1.5625rem;
+    font-size: var(--fs-h3)!important;
 }
 
-.p-style{
+.p-custom-1{
+    font-size: var(--fs-p1)!important;
+}
+
+.p-custom-2{
     color: var(--gray-ligth-color);
     font-size: var(--fs-s);
+}
+
+.p-custom-3{
+    font-size: var(--fs-p3);
+}
+
+.spam-custom{
+    font-size: var(--br-card-custom)!important;;
+}
+
+.item-hidden{
+    font-size: var(--fs-p1-1)!important;
 }
 
 .small-style{
@@ -152,22 +174,22 @@ body{
 
 @media (max-width: 375px) { 
     .h2-custom {
-        text-align: left; 
-        font-size: 1.875rem!important;
+        text-align: left!important; 
+        font-size: var(--fs-h2)!important;
     }
-    .p-custom{
+    .p-custom-1{
         text-align: justify!important;
-        font-size: 0.875rem!important;
-        line-height: 19px!important;
+        font-size: var(--fs-p1-1)!important;
+        line-height: var(--lg-p)!important;
     }
 }  
 
 @media (min-width: 1200px) { 
     .h3-custom{
-        font-size: 1.875rem!important;
+        font-size: var(--fs-h2)!important;
     }
-    .p-custom{
-        font-size: 1.125rem!important;
+    .p-custom-1{
+        font-size: var(--fs-p1)!important;
     }
 }
 
