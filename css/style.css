@@ -13,6 +13,7 @@
     --dark-blue-pricing-color: #0F1F4B;
     --text-primary-color: #FFF;
     --text-secondary-color: #8794BA;
+    --char-lines: #EEEEF7; 
 
     --spacer: 1rem;
     --spacer-md: calc(var(--spacer) * 2);
@@ -21,10 +22,24 @@
 
 /**/
 
+#center{
+    display: block;
+    margin: 0 auto;
+}
+h2,h3{
+    font-weight: var(--fw-n);
+    flex: auto;
+    text-align: center;
+}
+p{
+    font-weight: var(--fw-n);
+    color: var(--gray-ligth-color);
+}
+
 body{
     background-color: var(--gray-ligth-color);
 }
+.container{
+    background-color: var(--char-lines);
 
-section-2{
-    
 }
